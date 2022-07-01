@@ -104,7 +104,7 @@ const Navbar = ({ searchMovies, setSearchValue, setMovies, selectMovie }) => {
           <IconButton
             edge="start"
             color="inherit"
-            href="http://localhost:3000/?"
+            href="https://zbdmovies.netlify.app/"
           >
             <MovieFilterSharpIcon />
           </IconButton>
