@@ -108,8 +108,31 @@ const DrawerComponent = ({
     <>
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
         <List>
-          <Container sx={{ display: "flex", flexDirection: "column" }}>
+          <Container
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <Button
+              type="submit"
+              variant="contained"
+              size="medium"
+              color="error"
+              style={{
+                borderRadius: "15px 15px 15px 15px",
+
+                marginLeft: "20px",
+                height: 47,
+              }}
+              onClick={setDrawer}
+            >
+              Close Tab
+            </Button>
+
             <ListItemText sx={{ marginBottom: 5, marginTop: 2 }}>
+              <hr />
               <form
                 onSubmit={(e) => {
                   searchMovies(e);

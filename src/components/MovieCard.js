@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Stack,
-  Button,
-  Card,
-  CardContent,
-  Typography,
-  Grid,
-} from "@mui/material";
+import { Stack, Button, Card, CardContent, Typography } from "@mui/material";
 import ImageNotSupportedIcon from "@mui/icons-material/ImageNotSupported";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
 
@@ -14,7 +7,7 @@ const MovieCard = ({ movie, selectMovie }) => {
   const imageUrl = "https://image.tmdb.org/t/p/w500";
 
   const scrollUp = () => {
-    window.scrollBy(0, -5000);
+    window.scrollBy(0, -50000);
   };
 
   return (
