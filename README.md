@@ -1,3 +1,49 @@
+# ZBD Movies
+
+This is a movie guide application built with  [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction).
+
+**You can go [here](https://zbdmovies.netlify.app/). and try the application.**
+
+## Features
+
+- List most popular movies
+- Filter by genre
+- Search movies 
+- View rating, images, trailer etc. of movies
+
+
+## Used In Application
+
+- Language: [React.js](https://reactjs.org/)
+- API: [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
+- UI Library: [Material UI](https://mui.com/)
+- Code Formatting: [Prettier](https://prettier.io/)
+- Deployment: [Netlify](https://www.netlify.com/)
+
+## Development
+
+To start development, you should get  API key from [here](https://developers.themoviedb.org/3/getting-started/introduction) first.  
+After that, we create a `.env` file and set your environment variables:
+
+```
+REACT_APP_MOVIE_API_KEY=your_api_key
+```
+
+Install packages with:
+
+```
+npm install
+```
+
+And when the installation is completed, you can run the app by:
+
+```
+npm run dev
+```
+
+and it will start at `http://localhost:3000`.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
